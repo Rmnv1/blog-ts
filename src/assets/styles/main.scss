@@ -1,0 +1,51 @@
+@use './variables' as *;
+@use './fonts' as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', serif;
+  color: $primary-text-color;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-text-color;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  margin-top: 120px;
+}
+
+h1 {
+  font-size: 84px;
+  line-height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1187px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 16px 32px;
+  background-color: $primary-1;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 100%;
+}

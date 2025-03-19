@@ -1,0 +1,9 @@
+.articles-list {
+  min-height: 400px;
+  margin-bottom: 140px;
+}
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
