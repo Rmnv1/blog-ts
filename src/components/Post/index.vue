@@ -20,6 +20,8 @@
       <p class="post__preview-text">
         {{ data.preview }}
       </p>
+
+      <span class="post__to-detail">Read more</span>
     </RouterLink>
   </article>
 </template>
